@@ -92,6 +92,7 @@ nav ul {
     text-align: left;
     color: var(--color-grey-2);
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 #more_info {
@@ -189,15 +190,51 @@ nav ul {
     color: var(--text-color-1);
 }
 
-#episodes-list {
+#episodes_list {
     height: 100%;
-    overflow: auto;
+    overflow-y: auto;
 }
 
-#episodes-list::-webkit-scrollbar {
-    background-color: var(--color-secondary); /* color of the scroll thumb */
+#episodes_list::-webkit-scrollbar {
+    background-color: var(--color-grey-3); /* color of the scroll thumb */
+}
+
+#episodes_list::-webkit-scrollbar-thumb {
+    background-color: var(--color-secondary);
     border-radius: 20px; /* roundness of the scroll thumb */
     border: 3px solid black; /* creates padding around scroll thumb */
+}
+
+.episode_card {
+    width: 650px;
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    background-color: var(--color-grey-3);
+}
+
+.episode_card img {
+    margin: 30px;
+}
+
+.episode_card_text h4 {
+    font-family: Darker Grotesque;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-grey-2);
+}
+
+.episode_card_text p {
+    font-family: Darker Grotesque;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-grey-2);
 }
 
 footer {
