@@ -199,3 +199,52 @@ nav ul {
     border-radius: 20px; /* roundness of the scroll thumb */
     border: 3px solid black; /* creates padding around scroll thumb */
 }
+
+footer {
+    background: linear-gradient(180deg, #000000 0%, #950202 289.06%);
+}
+
+footer .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 150px 0 50px;
+}
+
+#social {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#social h2 {
+    font-family: Iceland;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0em;
+    color: var(--color-grey-2);
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+#social h3 {
+    font-family: Iceland;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    color: var(--color-grey-2);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+}
+
+#social-icons img {
+    cursor: pointer;
+}
