@@ -38,8 +38,63 @@ nav ul {
     letter-spacing: 0em;
     text-align: left;
     color: var(--text-color-1);
+    text-transform: uppercase;
 }
 
 .navigation.active a {
-    color: white;
+    color: var(--color-grey-2);
+}
+
+#hero {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#title {
+    font-family: Iceland;
+    font-size: 92px;
+    font-weight: 400;
+    line-height: 89px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-grey-2);
+    text-transform: uppercase;
+}
+
+#description {
+    font-family: Actor;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--text-color-1);
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+}
+
+#buttons button {
+    padding: 13px 30px;
+    font-family: Iceland;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-grey-2);
+    text-transform: uppercase;
+}
+
+#more_info {
+    background-color: var(--color-secondary);
+}
+
+#watch_teaser {
+    background-color: var(--color-grey-1);
 }
